@@ -3,7 +3,7 @@ import {CubaApp, EntityMessages, EnumInfo, MetaClassInfo, PermissionInfo, UserIn
 import {inject, IReactComponent, IWrappedComponent} from "mobx-react";
 
 // todo move to cuba-rest
-export type PropertyType = 'string' | 'int' | 'date' | 'dateTime' | 'boolean';
+export type PropertyType = 'string' | 'int' | 'double' | 'decimal' | 'date' | 'dateTime' | 'boolean';
 
 export class MainStore {
 
