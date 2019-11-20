@@ -44,7 +44,8 @@
     "copycss": "copyfiles -u 1 './src/**/*.css' './dist-transpiled'",
     "compile": "tsc && npm run copycss && rollup -c",
     "clean": "rm -rf dist && rm -rf dist-transpiled",
-    "test": "jest"
+    "test": "jest",
+    "tslint": "tslint src/**/*.ts{,x}"
   },
   "author": "CUBA Platform Team <info@cuba-platform.com>",
   "license": "Apache-2.0",
