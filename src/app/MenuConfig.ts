@@ -10,19 +10,8 @@ export interface SubMenu {
   caption: string
 }
 
-export class MenuConfig implements SubMenu {
+const menuItems: Array<RouteItem | SubMenu> = [];
 
-  private static instance?: MenuConfig;
-
-  static getInstance(): MenuConfig {
-    if (!this.instance) this.instance = new MenuConfig();
-    return this.instance;
-  }
-
-  private constructor() {
-  }
-
-  caption: string = '';
-  items: Array<RouteItem | SubMenu> = [];
-
+export function getMenuItems() : Array<RouteItem | SubMenu> {
+  return menuItems;
 }
