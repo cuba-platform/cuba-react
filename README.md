@@ -1,3 +1,5 @@
+> :bulb: Moved to [cuba-platform/frontend/packages/cuba-react](https://github.com/cuba-platform/frontend/tree/master/packages/cuba-react)
+
 # CUBA React
 
 Contains components and utilities for CUBA Platform React client.
